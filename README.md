@@ -1,3 +1,5 @@
+This demo app shows a bug with bundler where having one gem specified with a source and another with a path will cause bundler not to find gems with a source specified.
+
 Start a local gemserver:
 
 ```
