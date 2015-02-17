@@ -32,7 +32,15 @@ Run `bundle install` to install missing gems.
 
 :(
 
-comment out the `gem 'bar'…` line in the Gemfile, `bundle` again, try exec again:
+or even just show:
+
+```
+$ bundle show foo
+Could not find gem 'foo (>= 0) ruby' in rubygems repository http://0.0.0.0:8808/.
+Source does not contain any versions of 'foo (>= 0) ruby'
+```
+
+now comment out the `gem 'bar'…` line in the Gemfile, `bundle` again, try exec again:
 
 ```
 $ bundle
